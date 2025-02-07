@@ -118,10 +118,10 @@ To get started, see [Configure failover cluster instance with Storage Spaces Dir
 
 - Shared storage solution for virtual machines spread over multiple availability zones.
 - Fully managed file system with single-digit latencies and burstable I/O performance.
-- Not all SQL Server features are supported - such as database snapshots, filestream, and CHECKDB without TABLOCK. Review [Limitations](failover-cluster-instance-premium-file-share-manually-configure.md#limitations) for details. 
 
 **Limitations:**
 
+- Not all SQL Server features are supported - such as database snapshots, filestream, and CHECKDB without TABLOCK. Review [Limitations](failover-cluster-instance-premium-file-share-manually-configure.md#limitations) for details. 
 - Available only for Windows Server 2012 and later.
 - FileStream isn't supported.
 - Microsoft Distributed Transaction Coordinator (MSDTC) isn't supported. 
